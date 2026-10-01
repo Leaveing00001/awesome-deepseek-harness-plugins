@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "Leaveing00001/dsh-fusion360",
+  "name": "dsh-fusion360",
+  "repository": "https://github.com/Leaveing00001/dsh-fusion360",
+  "category": "tools",
+  "description": {
+    "en": "Drives Autodesk Fusion 360 from DeepSeek Harness through a 13-tool MCP server: read the model, change parameters, export STEP and STL, and run arbitrary Fusion API Python via fusion_run_python. Needs the repository's Fusion add-in loaded inside Fusion, which npm cannot install, so the install is two steps.",
+    "zh": "通过 13 个工具的 MCP 服务器，用 DeepSeek Harness 驱动 Autodesk Fusion 360：读取模型、修改参数、导出 STEP/STL，并通过 fusion_run_python 执行任意 Fusion API Python。需要在 Fusion 内加载本仓库的插件，而插件无法由 npm 安装，因此安装分两步。"
+  },
+  "added": "2026-10-01"
+}
